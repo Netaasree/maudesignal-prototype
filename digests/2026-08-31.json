@@ -38,7 +38,10 @@
   "events_after_as_of": 0,
   "events_skipped_missing_date": 0,
   "fetch_summary": {},
-  "notes": [],
+  "notes": [
+    "LLZ: openFDA fetch failed (openFDA server error 500); used stored data only",
+    "MYN: openFDA fetch failed (openFDA server error 500); used stored data only"
+  ],
   "signals": [
     {
       "product_code": "LLZ",
@@ -220,7 +223,8 @@
   "device_types": {
     "LLZ": "System, Image Processing, Radiological",
     "MYN": "Analyzer, Medical Image",
-    "POK": "Computer-Assisted Diagnostic Software For Lesions Suspicious For Cancer"
+    "POK": "Computer-Assisted Diagnostic Software For Lesions Suspicious For Cancer",
+    "QIH": "Automated Radiological Image Processing Software"
   },
   "window_brands": {
     "LLZ": [
